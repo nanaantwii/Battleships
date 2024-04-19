@@ -46,7 +46,7 @@ To play the Battleships game, follow these steps:
    cd Battleships
 
 3. **Run the Python Script:** Execute the Python script by running the following command:
-   python battleships9.py
+   python run.py
 
 4. **Follow the Game Instructions:** Once the game starts, follow the instructions displayed in the terminal to play the game. Enjoy!
 
