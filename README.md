@@ -66,20 +66,20 @@ If you encounter any issues while deploying or running the Battleships game, ref
 
 ### Cloning Repository Error: Destination Path Already Exists
 
-If you encounter the error message `fatal: destination path 'Battleships-Game' already exists and is not an empty directory` while trying to clone the repository, it means that there's already a directory with the same name in the location where you're trying to clone the repository.
+If you encounter the error message `fatal: destination path 'Battleships' already exists and is not an empty directory` while trying to clone the repository, it means that there's already a directory with the same name in the location where you're trying to clone the repository.
 
 To resolve this issue, you have a couple of options:
 
-1. **Use a Different Directory**: Instead of cloning into `Battleships-Game`, specify a different directory name where you want to clone the repository:
-git clone https://github.com/nanaantwii/Battleships-Game.git <different_directory_name>
+1. **Use a Different Directory**: Instead of cloning into `Battleships`, specify a different directory name where you want to clone the repository:
+git clone https://github.com/nanaantwii/Battleships.git <different_directory_name>
 
-2. **Remove Existing Directory**: If you want to replace the contents of the existing `Battleships-Game` directory with the cloned repository, you can delete the existing directory first using the following command:
-rm -rf Battleships-Game
+2. **Remove Existing Directory**: If you want to replace the contents of the existing `Battleships` directory with the cloned repository, you can delete the existing directory first using the following command:
+rm -rf Battleships
 
 After deleting the directory, you can clone the repository again:
-git clone https://github.com/nanaantwii/Battleships-Game.git
+git clone https://github.com/nanaantwii/Battleships.git
 
-This will clone the repository into the `Battleships-Game` directory.
+This will clone the repository into the `Battleships` directory.
 
 Choose the option that best fits your needs, and you should be able to clone the repository without encountering the error.
 
@@ -99,7 +99,6 @@ Choose the option that best fits your needs, and you should be able to clone the
 - **Resolution:** This issue may arise due to differences in browser rendering. Consider testing the game on different browsers and devices to identify any compatibility issues. Implement CSS adjustments or browser-specific fixes as needed.
 
 If you encounter any other issues not listed here, feel free to [submit an issue](https://github.com/nanaantwii/Battleships/issues) on GitHub, and we'll address it as soon as possible.
-
 
 ## Pass Criteria
 
@@ -160,7 +159,6 @@ Screenshots of the deployed game will be provided here to give users a preview o
 <img width="273" alt="Screenshot 2024-03-30 at 12 16 22" src="https://github.com/nanaantwii/battlelships/assets/143400442/e15fc06a-ad27-499e-8c52-992482a4ebd8">
 <img width="1423" alt="Screenshot 2024-04-19 at 14 46 49" src="https://github.com/nanaantwii/Battleships/assets/143400442/6ae61963-52b6-4339-b752-8357d3e43a46">
 <img width="1428" alt="Screenshot 2024-04-19 at 14 46 09" src="https://github.com/nanaantwii/Battleships/assets/143400442/82e320fd-bdd2-4805-8e9a-78364bb6539e">
-
 
 ## Credits
 
